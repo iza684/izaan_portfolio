@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400..800&family=Charm:wght@400;700&family=Fleur+De+Leah&family=Poppins:wght@400;500;600;700&family=SUSE:wght@100..800&family=Tangerine:wght@400;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: var(--color5);
+  font-family: "Poppins", sans-serif;
+
+}
+:root {
+  --color: rgb(0, 0, 0);
+  --color2: rgb(19, 12, 215);
+  --color3: white;
+  --color4: #b808fe;
+  --color5: #71beff;
+}
+header{
+  position: sticky;
+  top: 0;
+ 
+  
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: var(--color);
+  color: var(--color3);
+  height: 10vh;
+
+
+}
+nav ul {
+  display: flex;
+
+  align-items: center;
+}
+nav ul li {
+  list-style: none;
+  margin: 0px 23px;
+}
+nav ul li a {
+  color: var(--color3);
+
+  text-decoration: none;
+}
+a:hover {
+  cursor: context-menu;
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-decoration-thickness: 3px;
+  text-decoration-line: underline;
+  text-decoration-color: var(--color2);
+  font-size: 1.02rem;
+}
+nav .left {
+  font-size: 2rem;
+  font-weight: 900;
+ 
+  font-family: "Charm", cursive;
+    
+  
+  
+}
+.section{
+  padding-top: 6%;
+}
+
+.firstsection {
+  margin: 20px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 90px;
+}
+.firstsection > div {
+ max-width: 35%;
+}
+
+.leftsection {
+ max-width: 30%;
+  font-size: 2.4rem;
+  color: var(--color3);
+  font-weight: 500;
+  margin: 20px 0px;
+}
+.leftsection span {
+  color: var(--color);
+}
+.rightsection img {
+  max-width: 95%;
+}
+
+#element {
+  color: var(--color);
+}
+main hr {
+  border: 0;
+  background: var(--color);
+  height: 4px;
+}
+.secondsection {
+  margin: 30px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+h1 {
+  color: var(--color3);
+  font-size: 2.3rem;
+  font-weight: 700;
+
+  margin: 40px 0px;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: var(--color);
+  text-decoration-style: solid;
+}
+
+.secleft img {
+  max-width: 400px;
+}
+.secright {
+  margin: 0px 100px;
+  color: var(--color);
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.secright div {
+  line-height: 40px;
+  word-spacing: 15px;
+}
+.secright span {
+  color: var(--color3);
+}
+.thirdsection {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin: 20px 0px;
+  gap: 1%;
+
+  padding: 10px;
+}
+.thirdsection aside {
+  text-align: center;
+}
+.thirdsection aside img {
+  height: 90px;
+}
+.thirdsection aside div {
+  font-size: 30px;
+  font-weight: 500;
+  color: var(--color3);
+}
+.thirdsection aside p {
+  color: var(--color);
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+.contact {
+  
+  background-color:var(--color5);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-section {
+  width: 100%;
+  max-width: 600px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.1); 
+  border-radius: 15px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.37);
+  backdrop-filter: blur(10px); 
+  text-align: center;
+  color: #fff;
+}
+
+.contact-section h2 {
+  margin-bottom: 10px;
+  font-size: 2rem;
+}
+
+.contact-section p {
+  margin-bottom: 20px;
+  font-size: 1rem;
+}
+
+/* Form Styling */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+ 
+ 
+}
+.contact-form input{
+  border-radius: 5px;
+  height: 30px;
+  border: none;
+  
+  
+}
+.contact-form button {
+  width: 100px;
+  height: 40px;
+border-radius: 5px;
+border: none;
+background-color: rgb(255, 255, 255);
+font-weight: 500;
+color: rgb(0, 0, 0);
+}
+.contact-form input::placeholder{
+  color: rgb(0, 0, 0);
+  font-weight: 700;
+  padding: 0px 5px;
+}
+.contact-form textarea::placeholder{
+  color: rgb(0, 0, 0);
+  font-weight: 700;
+  padding: 0px 5px;
+}
+
+footer div h3 {
+  background-color: var(--color);
+  color: var(--color3);
+  text-align: center;
+  padding: 5px;
+  font-size: 20px;
+  font-weight: 200;
+}
+footer div h3 span{
+  color: var(--color5);
+  font-weight: 500;
+
+}
+
+@media (min-width: 1024px) {
+  .firstsection {
+    margin: 40px;
+  }
+  .secright {
+    margin: 0px 150px;
+  }
+}
+
+/* Tablets and Medium Screens (768px - 1023px) */
+@media (max-width: 1023px) {
+  .leftsection{
+    font-size: 2rem;
+  }
+ .secondsection{
+  font-size: 1.2;
+  display: flex;
+  
+  margin: 20px 0px;
+ 
+ 
+  
+ }
+ .secleft img{
+  max-width: 200px;
+ }
+ .secright{
+  font-size: 0.7rem;
+  margin: 0px 10px ;
+
+ }
+ .thirdsection aside p{
+  font-size: .7rem;
+ }
+
+}
+
+/* Small Screens (Mobiles) */
+@media (max-width: 600px) {
+
+ 
+nav .left {
+  font-size: 1rem;
+  font-weight: 800;
+}
+nav .right ul{
+  font-size: x-small;
+}
+  .leftsection{
+    font-size: 1rem;
+  }
+ .secleft img{
+  /* width: 100px; */
+  height: 100px;
+
+ 
+ margin: 0px 10px;
+ color: var(--color);
+ font-size: .5rem;
+ font-weight: 600;
+}
+.secright div {
+ line-height: 20px;
+ word-spacing: 2px;
+}
+.thirdsection {
+  display: grid;
+  grid-template-columns: auto ;
+  margin: 20px 0px;
+  gap: 1%;
+
+  padding: 10px;
+}
+
+}
