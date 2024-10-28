@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Izaan-Developer portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400..800&family=Poppins:wght@400;500;600;700&family=SUSE:wght@100..800&display=swap"
+      rel="stylesheet"
+    />
+
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Izaan's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="#home">Home </a></li>
+            <li><a href="#about">About </a></li>
+            <li><a href="#skills">Skills </a></li>
+            <li><a href="#contactme">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="section" id="home">
+
+        <div class="firstsection" >
+          <div class="leftsection">
+            Hi,My Name is <span>izaan</span>
+            <div>
+              <div>and i am passionate</div>
+              
+              <span id="element"></span>
+            </div>
+          </div>
+          <div class="rightsection">
+            <img src="profile.png" alt="" />
+          </div>
+        </section>
+        <hr>
+      
+         <section class="section" id="about">
+          
+           <h1 >ABOUT ME</h1>
+           <div class="secondsection" >
+             
+             <div class="secleft">
+               <img src="img1.png" alt="" />
+              </div>
+              <div class="secright">
+                <div>
+                  Hello, I'm <span>Izaan Ansari</span>, currently pursuing
+                  <span>B.Tech in Information Technology</span> at Malwa Institute of
+                  Science and Technology. I'm passionate about software development
+                  and have experience in<span>
+                    C++, web development, and data structures</span
+                    >. Currently, I'm interning at <span>UnizzTech</span>, working on
+                    real-world projects and honing my skills. My goal is to build
+                    impactful solutions that blend creativity with technology.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <hr>
+
+          <section class="section"  id="skills">
+
+            <h1 >SKILLS</h1>
+            <div class="thirdsection" >
+              
+              <aside>
+                <img src="c.png" alt="" />
+                <div>C</div>
+                <p>
+                  A powerful programming language for system and application software,
+                  known for efficiency and resource control.
+                </p>
+              </aside>
+              <aside>
+                <img src="c++.png" alt="" />
+                <div>C++</div>
+                <p>
+                  An extension of C that includes object-oriented programming, ideal
+                  for complex applications and games
+                </p>
+              </aside>
+              
+              <aside>
+                <img src="html.png" alt="" />
+                <div>HTML</div>
+                <p>
+                  The standard markup language for structuring web content, allowing
+                  formatting of text, images, and links.
+                </p>
+              </aside>
+              <aside>
+                <img src="css.png" alt="" />
+                <div>CSS</div>
+                <p>
+                  Styles and layouts web pages, controlling colors, fonts, and design
+                  for visual appeal.
+                </p>
+              </aside>
+              
+            </div>
+      </section >
+      <hr>
+     
+      <section class="section" id="contactme" >
+
+        <div class="contact" >
+          
+          <div class="contact-section">
+            <div class="container">
+              <h2>Contact Me</h2>
+              <p>I'd love to hear from you! Feel free to send a message.</p>
+              <form action="#" method="POST" class="contact-form">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      </main>
+      <footer>
+        <div>
+          <h3>
+            Created By <span>Izaan Ansari</span> </h3>
+          </div>
+      </footer>
+      
+      <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+      <script>
+      var typed = new Typed("#element", {
+        strings: ["<i>Front End Developer</i>", " Video Editing."],
+        typeSpeed: 40,
+      });
+    </script>
+  </body>
+</html>
